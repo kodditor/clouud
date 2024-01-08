@@ -1,0 +1,71 @@
+* {
+    font-family: 'Montserrat', 'Lucida sans', 'helvetica'; 
+}
+
+body {
+    background-color: white; 
+    width: 250px; 
+    height: 80px;
+}
+
+#loading h3 {
+    display:flex; 
+    padding: 10px; 
+    font-weight:bold
+}
+
+#weather-container {
+    display: flex; 
+    gap: 20px; 
+    padding: 5px; 
+    align-items: center;
+}
+
+#weather {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#image img {
+    width: 50px; 
+    height: 50px;
+}
+
+#getcookie {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#getcookie input {
+    border-radius: 999em;
+    padding: 5px;
+    padding-left: 10px;
+    border-color: lightblue;
+    border-style: solid;
+}
+
+#getcookie span {
+    display: flex;
+    gap: 10px
+}
+
+#getcookie #button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 100%;
+    border: 2px solid lightblue;   
+    transition: 0.2s;
+}
+#getcookie #button:hover {
+    background-color: white;
+    color: lightblue;
+}

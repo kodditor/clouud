@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Clouud",
+    "description": "Get your local weather with a single click",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Clouud"
+    }
+}
